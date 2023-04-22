@@ -5,18 +5,75 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/index.css"/>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+
     <title>FreeCodeCamp</title>
 </head>
 <body>
     <header>
-        <nav class="navbar">
+        <!-- <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                  </form>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+                <a class="navbar-brand" href="#">Hidden brand</a>
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Link</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link disabled">Disabled</a>
+                  </li>
+                </ul>
+                
+              </div>
+            </div>
+          </nav> -->
+        <!-- <nav class="navbar">
             <ul class="navbar-items">
                 <li class="searh-bar"><input type="search" id="search" placeholder="Search 9,000+ tutorials">icon set as backgroung in css</input></li>
-                <li class="logo"><img src="./images/freecode.png" alt="FreeCodeCamp"/></li>
-                <li class="menu"><button>Menu</button></li>
-                <li class="signin"><button>Sign in</button></li>
+                <li class="logo"><img class="freed"src="./images/freecode.png" alt="FreeCodeCamp"/></li>
+                <li ><button class="menu">Menu</button></li>
+                <li ><button class="signin">Sign in</button></li>
             </ul>
-        </nav>
+        </nav> -->
+
+      <div id="nav">
+          <ul class="nav-list">
+              <li class="nav-items"><input type="text" id="search" placeholder="Search 9,000+ tutorials"/></li>
+              <li class="nav-items"><img class="freed"src="./images/freecode.png" alt="FreeCodeCamp"/></li>
+              <li class="menu">Menu</li>
+              <li class="signin">Sign in</li>
+          </ul>
+      </div>
+
+        <!-- <nav class="navbar bg-body-tertiary">
+            <div class="container-fluid">
+              <form class="d-flex" role="search">
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success" >Menu</button>
+                <button class="btn btn-outline-success" >Sign in</button>
+              </form>
+            </div>
+          </nav> -->
+
+          <!-- <nav class="navbar bg-dark">
+            <div class="container-fluid">
+              <form class="d-flex" role="search">
+                <input class="form-control me-2" id= "form-control" type="search" placeholder="Search 9,000+tutorials" aria-label="Search">
+              </form>
+              <h1 class="text-white fs-1">FreeCodeCamp<img src="./img/freecodecamp.webp" height="50" alt="freecodecamp icon"></h1>
+              <div class="">
+                <button class="btn btn-outline-success" type="submit">Menu</button>
+                <button class="btn btn-outline-success" type="submit">Sign in</button> -->
     </header>
     <main>
         <section>
@@ -52,46 +109,91 @@
         </section>
         <section class="alumni">
             <p>Here is what our alumni say about freeCodeCamp:</p>
-            <div class="card">
+            <div class="card mb-3" style="max-width: 540px;">
+                <div class="row g-0">
+                  <div class="col-md-4">
+                    <img src="./images/alum1.png" class="img-fluid rounded-start" alt="...">
+                  </div>
+                  <div class="col-md-8">
+                    <div class="card-body">
+                      <h5 class="card-title"><b>Shawn Wang</b> in Singapore</h5>
+                      <p class="card-text">"It's scary to change careers. I only gained confidence that I could code by working through the hundreds of hours of free lessons on freeCodeCamp. Within a year I had a six-figure job as a Software Engineer.<b>freeCodeCamp changed my life.</b>"</p>
+                      
+                    </div>
+                  </div>
+                </div>
+              </div>
+            <!-- <div class="card">
                 <img class="alum" src="" alt="alum"/>
                 <div class="views">
                     <h3><b>Shawn Wang</b>in Singapore</h3>
                     <h3>Software Engineer at <b>Amazon</b</h3>
                     <p>"It's scary to change careers. I only gained confidence that I could code by working through the hundreds of hours of free lessons on freeCodeCamp. Within a year I had a six-figure job as a Software Engineer.<b>freeCodeCamp changed my life.</b>"</p>
                 </div>
-            </div>
-            <div class="card">
+            </div> -->
+            <div class="card mb-3" style="max-width: 540px;">
+                <div class="row g-0">
+                  <div class="col-md-4">
+                    <img src="./images/alum2.png" class="img-fluid rounded-start" alt="...">
+                  </div>
+                  <div class="col-md-8">
+                    <div class="card-body">
+                      <h5 class="card-title"><b>Sarah Chima</b> in Nigeria</h5>
+                      <p class="card-text">"It's scary to change careers. I only gained confidence that I could code by working through the hundreds of hours of free lessons on freeCodeCamp. Within a year I had a six-figure job as a Software Engineer.<b>freeCodeCamp changed my life.</b>"</p>
+                      
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+            <!-- <div class="card">
                 <img class="alum" src="" alt="alum"/>
                 <div class="views">
                     <h3><b>Sarah Chima </b>in Nigeria</h3>
                     <h3>Software Engineer at<b>ChatDesk</b</h3>
                     <p>"<b>freeCodeCamp was the gateway to my career</b>as a software developer. The well-structured curriculum took my coding knowledge from a total beginner level to a very confident level. It was everything I needed to land my first dev job at an amazing company."</p>
                 </div>
-            </div>
-            <div class="card">
+            </div> -->
+
+            <div class="card mb-3" style="max-width: 540px;">
+                <div class="row g-0">
+                  <div class="col-md-4">
+                    <img src="./images/alum3.png" class="img-fluid rounded-start" alt="...">
+                  </div>
+                  <div class="col-md-8">
+                    <div class="card-body">
+                      <h5 class="card-title"><b>Emma Bostian</b> in Sweden</h5>
+                      <p class="card-text">"It's scary to change careers. I only gained confidence that I could code by working through the hundreds of hours of free lessons on freeCodeCamp. Within a year I had a six-figure job as a Software Engineer.<b>freeCodeCamp changed my life.</b>"</p>
+                      
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+            <!-- <div class="card">
                 <img class="alum" src="" alt="alum"/>
                 <div class="views">
                     <h3><b>Emma Bostian</b>in Sweden</h3>
                     <h3>Software Engineer at<b>Spotify</b</h3>
                     <p>"I've always struggled with learning JavaScript. I've taken many courses but freeCodeCamp's course was the one which stuck. Studying JavaScript as well as data structures and algorithms on <b>freeCodeCamp gave me the skills</b>and confidence I needed to land my dream job as a software engineer at Spotify."</p>
                 </div>
-            </div>
+            </div> -->
         </section>
         <section>
             <p>Earn free verified certifications in:</p>
-            <ul class="courses">
-                <li><img class="icon" src="" alt="icon"/> <a href="">(New) Responsive Web Design Certification <img src="/images/next.png" alt="next"/></li>
-                <li><img class="icon" src="" alt="icon"/> <a href="">Javacript Algorithm and Data Structures <img src="/images/next.png" alt="next"/></li>
-                <li><img class="icon" src="" alt="icon"/> <a href=""> Frontend Development LIbraries Certfication <img src="/images/next.png" alt="next"/></li>
-                <li><img class="icon" src="" alt="icon"/> <a href=""> Data Visualization Certification <img src="/images/next.png" alt="next"/></li>
-                <li><img class="icon" src="" alt="icon"/> <a href="">Relational Database (Beta) Certification <img src="/images/next.png" alt="next"/></li>
-                <li><img class="icon" src="" alt="icon"/> <a href=""> Backend Development and API Certification <img src="/images/next.png" alt="next"/></li>
-                <li><img class="icon" src="" alt="icon"/> <a href="">Quality Assurance Certification <img src="/images/next.png" alt="next"/></li>
-                <li><img class="icon" src="" alt="icon"/> <a href="">Scientific Computing with Python Certification <img src="/images/next.png" alt="next"/></li>
-                <li><img class="icon" src="" alt="icon"/> <a href="">Data Analysis with Python Certification <img src="/images/next.png" alt="next"/></li>
-                <li><img class="icon" src="" alt="icon"/> <a href="">Information Security Certification <img src="/images/next.png" alt="next"/></li>
-                <li><img class="icon" src="" alt="icon"/> <a href=""> Machine Learning Certification <img src="/images/next.png" alt="next"/></li>
-                <li><img class="icon" src="" alt="icon"/> <a href=""> College Algebra with Python Certification <img src="/images/next.png" alt="next"/></li>
+            <ul class="list-group">
+                <li class="list-group-item"><img class="icon" src="" alt="icon"/> <a href="">(New) Responsive Web Design Certification <img src="/images/next.png" alt="next"/></li>
+                <li class="list-group-item"><img class="icon" src="" alt="icon"/> <a href="">Javacript Algorithm and Data Structures <img src="/images/next.png" alt="next"/></li>
+                <li class="list-group-item"><img class="icon" src="" alt="icon"/> <a href=""> Frontend Development LIbraries Certfication <img src="/images/next.png" alt="next"/></li>
+                <li class="list-group-item"><img class="icon" src="" alt="icon"/> <a href=""> Data Visualization Certification <img src="/images/next.png" alt="next"/></li>
+                <li class="list-group-item"><img class="icon" src="" alt="icon"/> <a href="">Relational Database (Beta) Certification <img src="/images/next.png" alt="next"/></li>
+                <li class="list-group-item"><img class="icon" src="" alt="icon"/> <a href=""> Backend Development and API Certification <img src="/images/next.png" alt="next"/></li>
+                <li class="list-group-item"><img class="icon" src="" alt="icon"/> <a href="">Quality Assurance Certification <img src="/images/next.png" alt="next"/></li>
+                <li class="list-group-item"><img class="icon" src="" alt="icon"/> <a href="">Scientific Computing with Python Certification <img src="/images/next.png" alt="next"/></li>
+                <li class="list-group-item"><img class="icon" src="" alt="icon"/> <a href="">Data Analysis with Python Certification <img src="/images/next.png" alt="next"/></li>
+                <li class="list-group-item"><img class="icon" src="" alt="icon"/> <a href="">Information Security Certification <img src="/images/next.png" alt="next"/></li>
+                <li class="list-group-item"><img class="icon" src="" alt="icon"/> <a href=""> Machine Learning Certification <img src="/images/next.png" alt="next"/></li>
+                <li class="list-group-item"><img class="icon" src="" alt="icon"/> <a href=""> College Algebra with Python Certification <img src="/images/next.png" alt="next"/></li>
 
             </ul>
             <button class="start"><a href="">Get started (it's free)</a></button>
@@ -103,17 +205,18 @@
         <p>Donations to freeCodeCamp go toward our education initiatives, and help pay for servers, services, and staff.</p>
         <p>You can make a<a href=""> tax-deductible donation here.</a></p>
        <h3>Trending Guides</h3>
-        <ul class="list">
-            <li><a href=""></a>Javascript forEach()</li>
-            <li><a href="">strftime() in python</a></li>
-            <li><a href="">Check for null in JS</a></li>
-            <li><a href="">Command Line Tutorial</a></li>
-            <li><a href="">Check Empty String JS</a></li>
-            <li><a href="">Make an Arrow in HTML</a></li>
-            <li><a href="">Make a List in Python</a></li>
-            <li><a href="">How to Read JSON in Js</a></li>
-            <li><a href="">Python Print Same Line</a></li>
-            <li><a href="">Get Current Date in JS</a></li>
+        <ul class="list-group list-group-horizontal">
+            <li class="list-group-item"><a href=""></a>Javascript forEach()</li>
+            <li class="list-group-item"><a href="">strftime() in python</a></li>
+            <li class="list-group-item"><a href="">Check for null in JS</a></li>
+            <li class="list-group-item"><a href="">Command Line Tutorial</a></li>
+            <li class="list-group-item"><a href="">Check Empty String JS</a></li>
+            <li class="list-group-item"><a href="">Make an Arrow in HTML</a></li>
+            <li class="list-group-item"><a href="">Make a List in Python</a></li>
+            <li class="list-group-item"><a href="">How to Read JSON in Js</a></li>
+            <li class="list-group-item"><a href="">Python Print Same Line</a></li>
+            <li class="list-group-item"><a href=""><a href="">Get Current Date in JS</a></li>
+            <li ><a href="">Get Current Date in JS</a></li>
             <li><a href="">HTML Font Size</a></li>
             <li><a href="">Python LowerCase</a></li>
             <li><a href="">Run Python Script</a></li>

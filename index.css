@@ -1,3 +1,116 @@
+
+#nav {
+    background-color: #080A23;
+    height: 7%;
+    color: white;
+    overflow: hidden;
+    top: 0;
+    position: fixed;
+    width: 100%;
+    font-size: 15px;
+    z-index: 1;
+    
+}
+.nav-list li{
+    display: inline-block;
+    list-style: none;
+    /* align-content: space-evenly; */
+    padding: 10px;
+
+}
+
+.freed{
+height: 20px;
+width: 70px;
+
+}
+.menu, .signin{
+    float: right;
+    padding: 15px 50px;
+    margin-right: 15px;
+    color: black;
+    background-color: yellow;
+    border-style: double;
+
+   
+}
+#search{
+    width:500px;
+    padding: 4px 50px;
+    background-image: url("images/next.png");
+    background-repeat: no-repeat;
+    background-position: 20px;
+    background-size: 200px;
+    background-color: rgb(29, 156, 154);
+}
+
+/* .nav-items{
+    align-content: space-between;
+    padding: 30px
+} */
+
+
+
+
+
+
+
+
+
+
+/* 
+
+/* /* body{
+    margin: 0;
+    padding: 0;
+   
+} */
+/* .navbar{
+    background-color: #080A23;
+    height: 50px;
+    position: fixed;
+    width: 100%;
+       
+}
+ .navbar ul{
+    list-style-type: none;
+    display: flex;
+    
+} */
+
+/* .navbar ul li{
+    
+    justify-content: space-evenly;
+    
+}
+img.freed{
+    align-items: center;
+    height: 30px;
+    width: 100px;
+    
+  
+}  
+.menu, .signin{
+float: right;
+ /* align-items: flex-end; 
+}
+/* button.signin{
+ align-items: flex-end;
+} 
+.search-bar{
+    float:left;
+}
+.logo{
+    
+}
+ .signin{
+    float:left;
+}
 .logos{
     background-color: blue;
 }
+
+#form-control {
+   
+    padding: 10px 100px;
+} */
