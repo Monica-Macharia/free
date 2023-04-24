@@ -14,7 +14,7 @@
 .nav-list li{
     display: inline-block;
     list-style: none;
-    /* align-content: space-evenly; */
+    align-content: space-evenly;
     padding: 10px;
 
 }
