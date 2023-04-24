@@ -31,6 +31,19 @@ looper()
 
 let fruits = ["mango", "gog", "lmao"]
 
+function
+
+// let finder = function () {fruits.find((single) => {
+//    if(single === "gog"){
+//        console.log("piper")
+//    }else{
+//        console.log("pass")
+//    }
+// })}
+// console.log(finder())
+let caps=fruits.map((uno) => uno.toUpperCase() )
+console.log(caps)
+
 function namer(){
     for( let i=0; i < 3; i++){
        if(fruits[i] === "gog"){
